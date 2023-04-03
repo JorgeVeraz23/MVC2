@@ -28,6 +28,7 @@ public class PrincipalController {
     }
     public static void botonProducto(){
         ocultar();
-        //ProductoController.mostrar();
+        ProductoController.mostrar();
     }
+    
 }

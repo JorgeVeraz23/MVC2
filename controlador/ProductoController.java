@@ -4,10 +4,20 @@
  */
 package controlador;
 
+import vistas.*;
+
 /**
  *
  * @author USER
  */
 public class ProductoController {
+    public static VistaProducto ventana = new VistaProducto();
+    public static void mostrar(){
+        ventana.setVisible(true);
+    }
+    public static void ocultar(){
+        ventana.setVisible(false);
+    
+    }
     
 }
